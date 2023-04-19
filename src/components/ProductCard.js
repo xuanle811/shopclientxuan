@@ -13,6 +13,7 @@ import numberWithCommas from '~/utils/numberWithCommas'
 
 const ProductCard = props => {
 
+    //console.log(props)
     const dispatch = useDispatch()
 
     return (
@@ -45,8 +46,8 @@ const ProductCard = props => {
 }
 
 ProductCard.propTypes = {
-    //img01: PropTypes.string.isRequired,
-    //img02: PropTypes.string.isRequired,
+    img01: PropTypes.string.isRequired,
+    img02: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
     slug: PropTypes.string.isRequired,

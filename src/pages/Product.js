@@ -11,8 +11,9 @@ import { ProductView } from '~/components/ProductView'
 import productData from '~/assets/fake-data/products'
 
 const Product = () => {
-
+    //console.log(productData.getAllProducts())
     let { slug } = useParams();
+  
     const product = productData.getProductBySlug(slug)
 
     const relatedProducts = productData.getProducts(8)

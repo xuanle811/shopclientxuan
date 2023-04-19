@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 import { PublicRoutes } from '~/routes'
 import './assets/boxicons-2.0.7/css/boxicons.min.css'
 import './sass/index.scss'
-import { store } from './redux/store'
-import { Provider } from 'react-redux'
-import Layout from './components/Layout'
+// import { store } from './redux/store'
+// import { Provider } from 'react-redux'
+// import Layout from './components/Layout'
 
 function App() {
   return (
